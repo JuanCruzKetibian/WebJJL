@@ -30,7 +30,19 @@ ul{
     background-position: left;
     background-size: contain;
     background-size: 200px;
-    &.botondebusqueda{
+    .textoecommerce{
+        font-family: 'Balsamiq Sans', cursive;
+        font-family: 'Bruno Ace SC', cursive;
+        font-family: 'Chivo Mono', monospace;
+        font-size: 30px;
+        font-weight: bold; 
+        line-height: 1.5;
+        padding: 10px 0;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .botondebusqueda{
         padding: 5px 10px;
         border: none;
         border-radius: 3px;
@@ -39,10 +51,10 @@ ul{
         height: 30px;
         margin-top: 20px;
     }
-    &.navlabel{
+    .navlabel{
         margin-right: 500px;
     }
-    &.navinput{
+    .navinput{
         margin-right: 5px;
         width: 500px;
         height: 30px;
@@ -143,13 +155,13 @@ ul{
     position: relative;
     margin: 20px 400px;
     background-color: black;
-    &.titulorecuadroredes{
+    .titulorecuadroredes{
         color: white ;
         font-size: larger; 
         text-align: center;
         transform: translate(0%, 0%);
     }
-    &.recuadroredes{
+    .recuadroredes{
         color: white; 
         padding-right: 150px; 
         text-decoration: underline; 
@@ -184,4 +196,36 @@ ul{
             }
         }    
     }    
+}
+.fondodelmain{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #eaebeb;
+    h1{
+        font-family: 'Balsamiq Sans', 'cursive';
+        background-color: white;
+        font-size: 40px;
+        font-weight: bold; 
+        line-height: 1.5;
+        padding: 10px 0;
+        color: #333333;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .parrafohomearribaimagen{
+        color: black;
+        text-align: center;
+        margin: 20px 50px;
+        font-size:large;
+     }
+    .parrafohome{
+        color: black;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+        line-height: 2;
+        font-size:large;
+     }
 }
