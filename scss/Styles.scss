@@ -48,3 +48,120 @@ ul{
         height: 30px;
     }
 }
+.recuadro{
+    border: 7px solid black;
+    padding-left: 5px;
+    padding-bottom: 30px;
+    border-style:groove;
+    &.h1paragaleria{
+        font-family: 'Balsamiq Sans', 'cursive';
+        background-color: black;
+        font-size: 30px;
+        font-weight: bold; 
+        line-height: 1.5;
+        padding: 10px 0;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+    &.imagengaleria{
+        width: 370px; 
+        height: 280px;
+        }
+    &.videogaleria{
+        position: absolute;
+        top: 150px;
+        right: 53px;
+        margin: 0;
+        }
+    .textogaleria{
+        color: black;
+        font-size: 25px;
+        display: block;
+        line-height: 1.5;
+        justify-content: center;
+        }    
+    .centrartextoengaleria{
+        color: black;
+        display: block;
+        position: absolute;
+        margin: 280px;
+        top: 40%;
+        left: 28%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        }
+    }
+}
+.recuadro{
+    border: 7px solid black;
+    padding-left: 5px;
+    padding-bottom: 30px;
+    border-style:groove;
+    &.h1paragaleria{
+        font-family: 'Balsamiq Sans', 'cursive';
+        background-color: black;
+        font-size: 30px;
+        font-weight: bold; 
+        line-height: 1.5;
+        padding: 10px 0;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+    &.imagengaleria{
+        width: 370px; 
+        height: 280px;
+        }
+    &.videogaleria{
+        position: absolute;
+        top: 150px;
+        right: 53px;
+        margin: 0;
+        }
+    .textogaleria{
+        color: black;
+        font-size: 25px;
+        display: block;
+        line-height: 1.5;
+        justify-content: center;
+        }    
+    .centrartextoengaleriaparaorganizador{
+        color: black;
+        display: block;
+        position: absolute;
+        margin: 280px;
+        top: 40%;
+        left: 28%;
+        transform: translate(-50%, 110%);
+        font-size: 20px;
+        }    
+    }
+}
+.ubicaciondelsection{
+    border: 7px solid black;
+    padding-left: 5px;
+    border-style: double;
+    position: relative;
+    margin: 20px 400px;
+    background-color: black;
+    .titulorecuadroredes{
+        color: white ;
+        font-size: larger; 
+        text-align: center;
+        transform: translate(0%, 0%);
+    }
+    .recuadroredes{
+        color: white; 
+        padding-right: 150px; 
+        text-decoration: underline; 
+        .parrafopararedes{
+            font-size: 16px;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            color: white;
+            text-align: justify;
+            border: 3px solid white; 
+            padding: 10px 10px;
+          }
+    }
+}
