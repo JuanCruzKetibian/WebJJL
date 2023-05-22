@@ -34,13 +34,11 @@ ul li a {
   background-size: 200px;
 }
 .fondodelheader .textoecommerce {
-  font-family: "Balsamiq Sans", cursive;
-  font-family: "Bruno Ace SC", cursive;
-  font-family: "Chivo Mono", monospace;
+  font-family: 'Heebo', sans-serif;
   font-size: 30px;
   font-weight: bold;
   line-height: 1.5;
-  padding: 10px 0;
+  padding: 2px 0;
   color: white;
   text-align: center;
   text-transform: uppercase;
@@ -70,7 +68,7 @@ ul li a {
   border-style: groove;
 }
 .recuadro.h1paragaleria {
-  font-family: "Balsamiq Sans", "cursive";
+  font-family: 'Heebo', sans-serif;
   background-color: black;
   font-size: 30px;
   font-weight: bold;
@@ -115,7 +113,7 @@ ul li a {
   border-style: groove;
 }
 .recuadro.h1paragaleria {
-  font-family: "Balsamiq Sans", "cursive";
+  font-family: 'Heebo', sans-serif;
   background-color: black;
   font-size: 30px;
   font-weight: bold;
@@ -141,6 +139,7 @@ ul li a {
   display: block;
   line-height: 1.5;
   justify-content: center;
+  font-family: 'Heebo', sans-serif;
 }
 .recuadro.h1paragaleria .centrartextoengaleriaparaorganizador {
   color: black;
@@ -151,6 +150,7 @@ ul li a {
   left: 28%;
   transform: translate(-50%, 110%);
   font-size: 20px;
+  
 }
 
 .ubicaciondelsection {
@@ -174,7 +174,7 @@ ul li a {
 }
 .ubicaciondelsection .recuadroredes .parrafopararedes {
   font-size: 16px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Heebo', sans-serif;
   line-height: 1.5;
   margin-bottom: 20px;
   color: white;
@@ -191,10 +191,11 @@ ul li a {
 }
 .fondodelmain .parrafonosotros {
   font-size: 25px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Heebo', sans-serif;
   color: black;
 }
 .fondodelmain .parrafonosotros .carousel-inner1 {
+  font-family: 'Heebo', sans-serif;
   height: 500px;
 }
 .fondodelmain .parrafonosotros .carousel-inner1 .carousel-item img {
@@ -226,6 +227,7 @@ ul li a {
   text-align: center;
   margin: 20px 50px;
   font-size: large;
+  
 }
 .fondodelmain .parrafohome {
   color: black;
