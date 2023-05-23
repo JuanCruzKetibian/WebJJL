@@ -172,7 +172,6 @@ ul{
             margin-bottom: 20px;
             color: white;
             text-align: justify;
-            border: 3px solid white; 
             padding: 10px 10px;
           }
     }
@@ -229,3 +228,36 @@ ul{
         font-size:large;
      }
 }
+.recuadro{
+    ol{
+        a{
+        botondecompra{
+            color: white; 
+            border: 3px solid white; 
+            padding: 10px 10px;
+            background-color: black;
+            transform: translate(100%, -100%);
+            }
+        }
+    }
+}    
+recuadro{
+    border: 7px solid black;
+    padding-left: 5px;
+    padding-bottom: 30px;
+    border-style:groove;
+    animate__animated{
+        h1paragaleria{
+            font-family: 'Balsamiq Sans', 'cursive';
+            background-color: black;
+            font-size: 30px;
+            font-weight: bold; 
+            line-height: 1.5;
+            padding: 10px 0;
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+
+         }
+    }     
+}  

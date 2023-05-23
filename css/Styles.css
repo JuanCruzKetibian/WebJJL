@@ -34,11 +34,13 @@ ul li a {
   background-size: 200px;
 }
 .fondodelheader .textoecommerce {
-  font-family: 'Heebo', sans-serif;
+  font-family: "Balsamiq Sans", cursive;
+  font-family: "Bruno Ace SC", cursive;
+  font-family: "Chivo Mono", monospace;
   font-size: 30px;
   font-weight: bold;
   line-height: 1.5;
-  padding: 2px 0;
+  padding: 10px 0;
   color: white;
   text-align: center;
   text-transform: uppercase;
@@ -68,7 +70,7 @@ ul li a {
   border-style: groove;
 }
 .recuadro.h1paragaleria {
-  font-family: 'Heebo', sans-serif;
+  font-family: "Balsamiq Sans", "cursive";
   background-color: black;
   font-size: 30px;
   font-weight: bold;
@@ -113,7 +115,7 @@ ul li a {
   border-style: groove;
 }
 .recuadro.h1paragaleria {
-  font-family: 'Heebo', sans-serif;
+  font-family: "Balsamiq Sans", "cursive";
   background-color: black;
   font-size: 30px;
   font-weight: bold;
@@ -139,7 +141,6 @@ ul li a {
   display: block;
   line-height: 1.5;
   justify-content: center;
-  font-family: 'Heebo', sans-serif;
 }
 .recuadro.h1paragaleria .centrartextoengaleriaparaorganizador {
   color: black;
@@ -150,7 +151,6 @@ ul li a {
   left: 28%;
   transform: translate(-50%, 110%);
   font-size: 20px;
-  
 }
 
 .ubicaciondelsection {
@@ -174,7 +174,7 @@ ul li a {
 }
 .ubicaciondelsection .recuadroredes .parrafopararedes {
   font-size: 16px;
-  font-family: 'Heebo', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.5;
   margin-bottom: 20px;
   color: white;
@@ -190,11 +190,10 @@ ul li a {
 }
 .fondodelmain .parrafonosotros {
   font-size: 25px;
-  font-family: 'Heebo', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: black;
 }
 .fondodelmain .parrafonosotros .carousel-inner1 {
-  font-family: 'Heebo', sans-serif;
   height: 500px;
 }
 .fondodelmain .parrafonosotros .carousel-inner1 .carousel-item img {
@@ -211,7 +210,7 @@ ul li a {
   background-color: #eaebeb;
 }
 .fondodelmain h1 {
-  font-family: 'Heebo', sans-serif;
+  font-family: "Balsamiq Sans", "cursive";
   background-color: white;
   font-size: 40px;
   font-weight: bold;
@@ -226,7 +225,6 @@ ul li a {
   text-align: center;
   margin: 20px 50px;
   font-size: large;
-  
 }
 .fondodelmain .parrafohome {
   color: black;
@@ -236,6 +234,32 @@ ul li a {
   margin-right: 100px;
   line-height: 2;
   font-size: large;
+}
+
+.recuadro ol a botondecompra {
+  color: white;
+  border: 3px solid white;
+  padding: 10px 10px;
+  background-color: black;
+  transform: translate(100%, -100%);
+}
+
+recuadro {
+  border: 7px solid black;
+  padding-left: 5px;
+  padding-bottom: 30px;
+  border-style: groove;
+}
+recuadro animate__animated h1paragaleria {
+  font-family: "Balsamiq Sans", "cursive";
+  background-color: black;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 10px 0;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=Styles.css.map */
